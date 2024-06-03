@@ -13,6 +13,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import myLogo from "../Assets/logo.jpg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -37,9 +38,12 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <h3 className="purple" style={{ fontWeight: "bold" }}>
-            A.
-          </h3>
+          <img
+            src={myLogo}
+            alt="My Logo"
+            className="img-fluid"
+            style={{ maxHeight: "20%", width: "20%", borderRadius: "50%" }}
+          />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
