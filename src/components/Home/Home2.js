@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/profile-pic.png";
-import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -31,10 +30,7 @@ function Home2() {
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                 Media
-                </b>
+                also in areas related to <b className="purple">Media</b>
               </i>
               <br />
               <br />
@@ -53,9 +49,12 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" style={{borderRadius: "100%"}}/>
-            </Tilt>
+            <img
+              src={myImg}
+              className="img-fluid"
+              alt="avatar"
+              style={{ borderRadius: "100%" }}
+            />
           </Col>
         </Row>
         <Row>
