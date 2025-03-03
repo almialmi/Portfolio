@@ -9,6 +9,7 @@ import capstone from "../../Assets/Projects/pro4.png";
 import allure from "../../Assets/Projects/pro5.png";
 import hillbottom from "../../Assets/Projects/pro6.png";
 import saba from "../../Assets/Projects/pro7.png";
+import freshbeans from "../../Assets/Projects/fresh_beans.png";
 
 function Projects() {
   return (
@@ -97,6 +98,13 @@ function Projects() {
               imgPath={saba}
               title="Ovid Kling Consult"
               description="Optimize resources and workflows, empowering your teams to focus on high-impact tasks that drive growth."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={freshbeans}
+              title="Fresh Beans Coffee Trading PLC"
+              description="From Ethiopia’s storied highlands, our coffee journey begins with hand-picked beans from regions like Sidamo, Harar, and Yirgacheffe, each bearing the rich legacy of our land."
             />
           </Col>
         </Row>

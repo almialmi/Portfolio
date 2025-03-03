@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Almiti6"
+                href="https://twitter.com/almi_ti6"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/almi-ti6-3411511b6"
+                href="https://www.linkedin.com/in/almaz-tilahun-01a634343"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/almiti6?igsh=ajJmdmRqd28zOTdw"
+                href="https://www.instagram.com/almi_ti6?igsh=ajJmdmRqd28zOTdw"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
