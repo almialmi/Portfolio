@@ -53,13 +53,6 @@ function Projects() {
               description="Navigate leads, sales opportunities, and project sites efficiently through a centralized dashboard, enabling sales reports and effective management of waiting lists and plans."
             />
           </Col>
-           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ghion_homes}
-              title="GHION HOMES"
-              description="Navigate leads, sales opportunities, and project sites efficiently through a centralized dashboard, enabling sales reports and effective management of waiting lists and plans."
-            />
-          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={reality}
