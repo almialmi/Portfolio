@@ -10,6 +10,8 @@ import allure from "../../Assets/Projects/pro5.png";
 import hillbottom from "../../Assets/Projects/pro6.png";
 import saba from "../../Assets/Projects/pro7.png";
 import freshbeans from "../../Assets/Projects/fresh_beans.png";
+import jemla from "../../Assets/Projects/jemla.png";
+import ghion_homes from "../../Assets/Projects/ghion.png";
 
 function Projects() {
   return (
@@ -23,6 +25,41 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jemla}
+              title="MAD Technologies"
+              description="Jemla is a B2B e-commerce platform that helps retailers easily get access to Fast Moving Consumer Goods at affordable prices and have it delivered to their doorsteps"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={freshbeans}
+              title="Fresh Beans Coffee Trading PLC"
+              description="From Ethiopia’s storied highlands, our coffee journey begins with hand-picked beans from regions like Sidamo, Harar, and Yirgacheffe, each bearing the rich legacy of our land."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hillbottom}
+              title="Hillbottom Real Estate"
+              description="Navigate leads, sales opportunities, and project sites efficiently through a centralized dashboard, enabling sales reports and effective management of waiting lists and plans."
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ghion_homes}
+              title="GHION HOMES"
+              description="Navigate leads, sales opportunities, and project sites efficiently through a centralized dashboard, enabling sales reports and effective management of waiting lists and plans."
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ghion_homes}
+              title="GHION HOMES"
+              description="Navigate leads, sales opportunities, and project sites efficiently through a centralized dashboard, enabling sales reports and effective management of waiting lists and plans."
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={reality}
@@ -60,13 +97,6 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={hillbottom}
-              title="Hillbottom Real Estate"
-              description="Navigate leads, sales opportunities, and project sites efficiently through a centralized dashboard, enabling sales reports and effective management of waiting lists and plans."
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={saba}
               title="SABA Engineering Plc "
               description="Effectively handle fixed assets, including reception, transfers, and issues, ensuring accurate tracking of assets and associated fuel management."
@@ -98,13 +128,6 @@ function Projects() {
               imgPath={saba}
               title="Ovid Kling Consult"
               description="Optimize resources and workflows, empowering your teams to focus on high-impact tasks that drive growth."
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={freshbeans}
-              title="Fresh Beans Coffee Trading PLC"
-              description="From Ethiopia’s storied highlands, our coffee journey begins with hand-picked beans from regions like Sidamo, Harar, and Yirgacheffe, each bearing the rich legacy of our land."
             />
           </Col>
         </Row>
